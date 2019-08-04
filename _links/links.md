@@ -6,4 +6,4 @@
 4. [Azure Docs](https://docs.microsoft.com/es-es/azure/): material de referencia sobre **cualquier tema** de Azure.
 5. [Pluralsight](https://go.microsoft.com/fwlink/?linkid=2012831): cursos gratuitos en formato de video para herramientas de microsoft en general, y de Azure en particular.
 6. [Azure github](https://github.com/Azure): incluye commandlets y plantillas para crear desde la CLI o AZ Powershell.
-7. 
+7. [AZ-103: Microsoft Azure Administrator](https://github.com/MicrosoftLearning/AZ-103-MicrosoftAzureAdministrator): más práctica
