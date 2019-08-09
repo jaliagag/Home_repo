@@ -1,3 +1,5 @@
+# Introduction
+
 Cutting down on Capex and time to market
 
 Hybrid cloud
@@ -23,3 +25,8 @@ Hybrid cloud
 Vertical escaling: shutdown the server, increase some hardware component (RAM, CPU...).
 5. measured service (pay as you go model)
 
+# Vnets
+
+Refer to [this document](_archivos/networking.md).
+
+#
