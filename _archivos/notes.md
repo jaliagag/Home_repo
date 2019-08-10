@@ -27,6 +27,6 @@ Vertical escaling: shutdown the server, increase some hardware component (RAM, C
 
 # Vnets
 
-Refer to [this document](FROM_M_TO_THE_WORLD/_archivos/networking.md).
+Refer to [this document](_archivos/networking.md)
 
 #
