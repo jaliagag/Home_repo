@@ -10,7 +10,7 @@ Hybrid cloud
 
 ## Cloud ownership
 
-![ownship](FROM_M_TO_THE_WORLD/_imagenes/ownship.png)
+![ownship](_imagenes/ownship.png)
 - Traditional on-premisses deployment
 - IAAS
 - PAAS
