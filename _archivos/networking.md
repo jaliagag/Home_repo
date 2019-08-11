@@ -75,3 +75,16 @@ from **cmd**:
 
 - telnet www.google.com 80
 - telnet SERVER IP ADDRESS 3389         (3389 --> RDP)
+
+### Public vs private IP addresses
+
+When using a public IP address to communicate with a server, it's more secure to use the private IP address. To encrypt the connection we need a VPN or a Gateway. Gatways must be kept on a separate subnet --> **gateway subnet**.
+
+To create this gateway we need:
+
+1. Virtual network gateway
+2. A certificate to encrypt the traffic
+3. VPN client
+
+### Creating a Point to Site VPN (P2S)
+
