@@ -86,5 +86,16 @@ To create this gateway we need:
 2. A certificate to encrypt the traffic
 3. VPN client
 
+A subnet can be thought of as a range or block of IP addresses that have a common network ID. Given an IP address in CIDR notation, it's useful to be able to determine the range of actual IP addresses that the CIDR represents.
+1. The first step is to **determine the actual network ID**. You can do that by converting both the IP address and the subnet mask to binary and then exracting the network ID.
+2. Next determine the number of allwable hostos in the subnet based on the network prefix. You can calculate this by subtracting the last octet of the subnet mask from 254.
+3. To determine the first IP address in the block, add 1 to the network ID. To determine de last IP address in the block, add the number of hosts to the network.
+
+Example:
+1. Network ID: 11000000.10101000.00000001.00000000
+    1. My IP address is 192.168.1.3, in binary: 11000000.10101000.00000001.00000011
+    2. Subnet mask: 11111111.11111111.11111111.00000000
+2. 
+3. 
 ### Creating a Point to Site VPN (P2S)
 
