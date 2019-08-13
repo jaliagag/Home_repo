@@ -10,7 +10,7 @@ Hybrid cloud
 
 ## Cloud ownership
 
-![ownship](_imagenes/ownship.png)
+![ownship](/_imagenes/ownship.png)
 - Traditional on-premisses deployment
 - IAAS
 - PAAS
@@ -27,6 +27,6 @@ Vertical escaling: shutdown the server, increase some hardware component (RAM, C
 
 # Vnets
 
-Refer to [this document](_archivos/networking.md)
+Refer to [this document](networking.md)
 
 #
