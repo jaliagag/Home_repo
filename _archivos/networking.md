@@ -66,9 +66,11 @@ The **network prefix** is indicated with a slash immediately after the IP addres
 # Telnet
 
 Command to install telnet using pwsh
-´´´´
+
+```
 Install-WindowsFeature telnel-client
-´´´´
+```
+
 ## Telnetl commands
 
 from **cmd**:
@@ -97,5 +99,10 @@ Example:
     2. Subnet mask: 11111111.11111111.11111111.00000000
 2. 254
 3. 1-254
+
+### Public vs Private IP addresses
+
+Any host with a direct connection to the Internet must have a globally unique IP address. However, not all hosts are connected directly to the Internet. Some are on networks that aren’t connected to the Internet. Some hosts are hidden behind firewalls, so their Internet connection is indirect.
+
 ### Creating a Point to Site VPN (P2S)
 
